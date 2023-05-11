@@ -1,5 +1,5 @@
 <h1>Traffic Light Control System (MCU 8051 IDE)</h1>
-
+<br>
 <h2>Operation Explanation</h2>
 <img src="./src/Traffic-Light-Visualization.png" align-items="center" style=" width=50px; height=50px;"></img>
 
@@ -44,10 +44,10 @@
     <li>The left traffic light turns yellow for 2 seconds and then turns red.</li>
     <li>All traffic lights remain red for 4 seconds.</li>
 </ul>
-
+<br>
 <h2>Source Code</h2>
 <p><a href="https://github.com/muqriqawiem/Traffic-Light-Control-System/blob/main/src/Traffic%20Light.asm">Traffic Light.asm</a></p>
-
+<br>
 <h2>Code Explanation</h2>
 
 <h3>MAIN</h3>

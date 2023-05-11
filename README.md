@@ -1,6 +1,7 @@
 <h1>Traffic Light Control System (MCU 8051 IDE)</h1>
 
 <h2>Operation Explanation</h2>
+<img src=""></img>
 
 <h3>Step 1 : Initial phase</h3>
 <ul>

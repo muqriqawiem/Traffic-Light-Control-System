@@ -49,3 +49,24 @@
 <p><a href="https://github.com/muqriqawiem/Traffic-Light-Control-System/blob/main/src/Traffic%20Light.asm">Traffic Light.asm</a></p>
 
 <h2>Code Explanation</h2>
+
+<h3>MAIN</h3>
+<p>Main part of the code where the overall control and sequencing of the traffic lights take place.</p>
+
+<h3>SEG</h3>
+<p>Defines a table of bytes representing different segments of a 7-segment LED display. Each byte corresponds to a specific number or character to be displayed.</p>
+
+<h3>SET</h3>
+<p>Sets the initial values of different timers (R1, R2, R3, R4, R5) used for controlling the delay timings during each phase of the traffic light cycle.</p>
+
+<h3>DELAYRED</h3>
+<p>Handles the delay and counter control during the red light phase. It decrements the R4 timer and updates the 7-segment display accordingly. The delay continues until R5 reaches zero.</p>
+
+<h3>DELAYGREEN</h3>
+<p>Controls the delay and counter during the green light phase. It decrements the R1 timer and updates the 7-segment display. The delay continues until R3 reaches zero.</p>
+
+<h3>DELAYYELLOW</h3>
+<p>Handles the delay and counter during the yellow light phase. It decrements the R2 timer and updates the 7-segment display. The delay continues until R4 reaches zero.</p>
+
+<h3>TOPTL, RIGHTTL, BOTTOMTL, LEFTTL</h3>
+<p>Represent the control logic for each traffic light direction (top, right, bottom, left). They call the appropriate delay functions (DELAYRED, DELAYGREEN, DELAYYELLOW) based on the specific timing requirements for each phase. The code also turns on/off the corresponding traffic lights based on the given instructions.</p>
